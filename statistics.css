@@ -1,0 +1,86 @@
+h2.tm-card__heading {
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    font-family: Open Sans, sans-serif;
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 40.8px;
+    margin-bottom: 45px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+a span.title {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: rgba(0, 0, 0, 0);
+    box-sizing: content-box;
+    color: rgb(0, 0, 0);
+    font-family: Open Sans, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 19.2px;
+    text-align: center;
+    text-decoration: none;
+    text-decoration-color: rgb(0, 0, 0);
+    text-decoration-line: none;
+    text-decoration-style: solid;
+}
+
+h2.table-heading {
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    font-family: Open Sans, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-transform: uppercase;
+}
+
+a.table-heading {
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    display: flex;
+    font-family: Open Sans, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-decoration: none;
+    text-decoration-color: rgb(0, 0, 0);
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    touch-action: manipulation;
+}
+
+.inside-table {
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    font-family: Open Sans, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    white-space: nowrap;
+    float: none;
+    margin: 0 auto;
+    display: inline-block
+}
+
+.inside-table-2 {
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    font-family: Open Sans, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    float: left;
+    /* margin: 0 auto; */
+    margin-left: 0%
+}
