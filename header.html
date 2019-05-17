@@ -7,7 +7,7 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/fitodac/bsnav@master/dist/bsnav.min.css">
     <meta charset="UTF-8">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -63,23 +63,20 @@
         <div class="credit-main-menu" id="sticker">
             <div class="classy-nav-container breakpoint-off">
                 <div class="container">
-                    <!-- Menu -->
+                    
                     <nav class="classy-navbar justify-content-between" id="creditNav">
 
-                        <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
                             <span class="navbarToggler"><span></span><span></span><span></span></span>
                         </div>
 
-                        <!-- Menu -->
+                        
                         <div class="classy-menu">
 
-                            <!-- Close Button -->
                             <div class="classycloseIcon">
                                 <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
                             </div>
 
-                            <!-- Nav Start -->
                             <div class="classynav">
                                 <ul>
                                     <li><a href="index.html">TRANG CHỦ</a></li>
@@ -90,10 +87,8 @@
                                     <li><a href="">ĐĂNG NHẬP</a></li>
                                 </ul>
                             </div>
-                            <!-- Nav End -->
                         </div>
 
-                        <!-- Contact -->
                         <div class="contact">
                             <a href="#"><img src="img/core-img/call2.png" alt=""> +84 241 264 798</a>
                         </div>
@@ -101,11 +96,28 @@
                 </div>
             </div>
         </div>
+        <div class="menu">
+            <p>Home</p>
+            <p>CSSSCRIPT.COM</p>
+            <p>About Us</p>
+        </div>
+        <div class="menu__toggler"><span></span></div>
+        <!-- <h1>Tilted Sliding Navigation Example</h1> -->
+
     </header>
-    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- <script src="js/jquery/jquery-2.2.4.min.js"></script>
     <script src="js/plugins/plugins.js"></script>
-    <!-- Active js -->
-    <script src="js/active.js"></script>
+    <script src="js/active.js"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/gh/fitodac/bsnav@master/dist/bsnav.min.js"></script> -->
+    <script>
+        const toggler = document.querySelector('.menu__toggler');
+        const menu = document.querySelector('.menu');
+
+        toggler.addEventListener('click', () => {
+            toggler.classList.toggle('active');
+            menu.classList.toggle('active');
+        });
+    </script>
 </body>
 
 </html>
